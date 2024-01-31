@@ -1,0 +1,494 @@
+/** Hash Configs **/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@100;300&display=swap');
+
+
+:root {
+
+  /** Font **/
+  --font1: ;
+  --font2: ;
+  --font3: ;
+  --font4: ;
+
+  --fontSize1: 5rem;
+  --fontSize2: 2rem;
+  --fontSize3: ;
+  --fontSize4: ;
+  --fontSize5: ;
+  --fontSize6: ;
+
+  /** Colors **/
+  --color1: ;
+  --color2: ;
+  --color3: ;
+  --color4: ;
+  --color5: ;
+  --color6: ;
+  --color7: ;
+
+  --xs: 1%;
+  --sm: 2.5%;
+  --md: 5%;
+  --lg: 7.5%;
+  --xl: 10%;
+
+  --px-xs: 1%;
+  --px-sm: 2.5%;
+  --px-md: 5%;
+  --px-lg: 7.5%;
+  --px-xl: 10%;
+
+
+}
+
+/* ==================================================================================================== */
+
+/* --------colors */
+
+.blue {
+  --color1: #E6FCF8;     /* body bg color*/
+  --color2: #78C5DC;     /* pagegrid border color*/
+  --color3: #ffffff99;   /* profile color*/
+  --color4: #0F6A7E;     /* profile name color*/
+  --color5: #8ADF56;     /* greenband color*/
+  --color6: #FEE05A;     /* yellowband color*/
+  --color7: #FF9D32;     /* orangeband color*/
+  --color8: #73D6F1;     /* blueband color*/
+  --color9: #DDB9F5;     /* purpleband color*/
+  --color10: #73D6F1;    /* activity1 color*/
+  --color11: #94E9EE;    /* activity2 color*/ 
+  --color12: #ffffff;    /* activity 1 nd 2 number color*/
+  --color13: #23232333;  /* inner-circleborder color*/
+}
+
+.green {
+  --color1: #EAFFEA;      /* body bg color*/
+  --color2: #62F163;      /* pagegrid border color*/
+  --color3: #ffffff99;    /* profile color*/
+  --color4: #558E55;      /* profile name color*/
+  --color5: #8ADF56;      /* greenband color*/
+  --color6: #FFF1B6;      /* yellowband color*/
+  --color7: #FFD4A5;      /* orangeband color*/
+  --color8: #B4E8F6;      /* blueband color*/
+  --color9: #DDB9F5;      /* purpleband color*/
+  --color10: #8ADF56;     /* activity1 color*/
+  --color11: #B2ED65;     /* activity2 color*/ 
+  --color12: #ffffff;     /* activity 1 nd 2 number color*/
+  --color13: #23232333;   /* inner-circleborder color*/
+}
+
+.yellow{
+  --color1: #FFFED4;      /* body bg color*/
+  --color2: #FFD528;      /* pagegrid border color*/
+  --color3: #ffffff99;    /* profile color*/
+  --color4: #B4980E;      /* profile name color*/
+  --color5: #8ADF56;      /* greenband color*/
+  --color6: #FFDE48;      /* yellowband color*/
+  --color7: #FFD4A5;      /* orangeband color*/
+  --color8: #B4E8F6;      /* blueband color*/
+  --color9: #DDB9F5;      /* purpleband color*/
+  --color10: #FFD400;     /* activity1 color*/
+  --color11: #FFEA00;     /* activity2 color*/ 
+  --color12: #ffffff;     /* activity 1 nd 2 number color*/
+  --color13: #23232333;   /* inner-circleborder color*/
+}
+
+.orange {
+  --color1: #FBECD5;     /* body bg color*/
+  --color2: #FF7901;     /* pagegrid border color*/
+  --color3: #ffffff99;   /* profile color*/
+  --color4: #B14E0B;     /* profile name color*/
+  --color5: #8ADF56;     /* greenband color*/
+  --color6: #FEE05A;     /* yellowband color*/
+  --color7: #FF9D32;     /* orangeband color*/
+  --color8: #B4E8F6;     /* blueband color*/
+  --color9: #DDB9F5;     /* purpleband color*/
+  --color10: #FF7519;    /* activity1 color*/
+  --color11: #FF9C22;    /* activity2 color*/ 
+  --color12: #ffffff;    /* activity 1 nd 2 number color*/
+  --color13: #23232333;  /* inner-circleborder color*/
+}
+
+.purple {
+  --color1: #F8F6FF;     /* body bg color*/
+  --color2: #ADA2FF;     /* pagegrid border color*/
+  --color3: #ffffff99;   /* profile color*/
+  --color4: #623784;     /* profile name color*/
+  --color5: #8ADF56;     /* greenband color*/
+  --color6: #FEE05A;     /* yellowband color*/
+  --color7: #FF9D32;     /* orangeband color*/
+  --color8: #73D6F1;     /* blueband color*/
+  --color9: #C68FF1;     /* purpleband color*/
+  --color10: #B474EF;    /* activity1 color*/
+  --color11: #C68FF1;    /* activity2 color*/ 
+  --color12: #ffffff;    /* activity 1 nd 2 number color*/
+  --color13: #23232333;  /* inner-circleborder color*/
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+body {
+  background-color: var(--color1);
+  overflow: hidden;
+
+}
+
+.pageGrid {
+  border: 8px dashed var(--color2);
+  border-radius: 50px;
+  background: url(../img/purple-bgFrame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+}
+
+#h1 .n0-i1 .n1-i1 {
+  --px-xs: -10%;
+}
+
+/* .music_icon  */
+
+#h1 .n2-i1 {
+  border-radius: 50%;
+  border: 5px dashed var(--color2);
+}
+
+#h1 .n2-i1 img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Settings_icon */
+
+#h1 .n2-i2 {
+  border-radius: 50%;
+  border: 5px dashed var(--color2);
+}
+
+#h1 .n2-i2 img {
+  width: 30px;
+  height: 30px;
+}
+
+/* ----------------------------- */
+#h1 .n0-i2 h1 .E {
+  color: #89C43C;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Fredoka", sans-serif;
+}
+
+#h1 .n0-i2 h1 .A {
+  color: #FEE05A;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: -20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+#h1 .n0-i2 h1 .R {
+  color: #FF9D32;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: -20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+#h1 .n0-i2 h1 .L {
+  color: #55CAEA;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: -20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+#h1 .n0-i2 h1 .Y {
+  color: #B260E8;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: -20px;
+  font-family: "Fredoka", sans-serif;
+}
+
+#h1 .n0-i2 h1 {
+  color: #9D9D9D;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+/* ------------------------------------------ */
+
+/* profile */
+
+#h1 .n0-i3 img {
+  width: 70px;
+  height: 70px;
+  border-radius: 80px;
+  border: 6px solid var(--color3);
+}
+
+#h1 .n0-i3 h3 {
+  color: var(--color4);
+  font-size: 18px;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+/* ----------------------Header end-------------------------------------- */
+
+/* ----------------------Main start----------------------------------------- */
+
+#m1 .n0-i1 .purple_band {
+  background-color: var(--color9);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 100px;
+  height: 70px;
+  margin-top: 12px;
+
+}
+
+#m1 .n0-i1 .purple_band img {
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+#m1 .n0-i1 .purple_band .border_purple {
+  height: 55px;
+  width: 100px;
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top: 4px dashed var(--color13);
+  border-right: 4px dashed var(--color13);
+  border-bottom: 4px dashed var(--color13);
+}
+
+/* ----------------------------------------------------------- */
+
+/* common style for all bands  */
+
+#m1 .n0-i1 .yellow_band, .orange_band, .green_band, .blue_band {
+  width: 60px;
+  height: 70px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin-top: 12px;
+}
+
+#m1 .n0-i1 .border {
+  height: 55px;
+  width: 50px;
+  position: absolute;
+  top: 8px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-top: 4px dashed var(--color13);
+  border-right: 4px dashed var(--color13);
+  border-bottom: 4px dashed var(--color13);
+}
+
+
+#m1 .n0-i1  .yellow_band:hover, .orange_band:hover, .green_band:hover, .blue_band:hover {
+  width: 100px;
+  cursor: pointer;
+}
+
+#m1 .n0-i1 .yellow_band:hover .border{   
+  width: 90px;
+}
+
+#m1 .n0-i1 .orange_band:hover .border{   
+  width: 90px;
+}
+#m1 .n0-i1 .blue_band:hover .border{   
+  width: 90px;
+}
+#m1 .n0-i1 .green_band:hover .border{   
+  width: 90px;
+}
+/* ---------------------------------------------------------- */
+
+#m1 .n0-i1 .yellow_band {
+  background-color: var(--color6);
+}
+
+#m1 .n0-i1 .orange_band {
+  background-color: var(--color7);
+}
+
+#m1 .n0-i1 .green_band {
+  background-color: var(--color5);
+}
+
+#m1 .n0-i1 .blue_band {
+  background-color: var(--color8);
+}
+
+/* --------------------------------------------------------------- */
+
+/* Activity */
+
+#m1 .n0-i2 .n1-i1, .n1-i2, .n1-i3 {
+  gap: 6%;
+}
+
+#m1 .n0-i2 .n1-i2 {
+  --px-md: 4%
+}
+
+#m1 .n0-i2 .activity_1, .activity_2 {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+#m1 .activity_1 p, .activity_2 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color12);
+  border: 4px dashed var(--color13);
+  border-radius: 50%;
+  font-family: "Fredoka", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 5px;
+  top: -5px;
+}
+
+#m1 .n0-i2 .activity_1{
+  background-color: var(--color10);
+}
+
+#m1 .n0-i2 .activity_2  {
+  background-color: var(--color11);
+}
+
+/* ------------------END---------------------------- */
+
+/*** 
+====================================================================
+   Responsive - START
+====================================================================
+***/
+
+/* large laptop screen*/
+@media (min-width: 1440px) {}
+
+/* mobile screen*/
+@media (max-width: 577px) {}
+
+
+/* small laptop screen*/
+@media (max-width: 1024px) {
+  /* Activity */
+  
+  #m1 .n0-i2 .n1-i1, .n1-i2, .n1-i3 {
+    gap:4%;
+  }
+
+  #m1 .n0-i2 {
+    --lg:6%;
+    --px-md:10%;
+  }
+   
+  #m1 .n0-i2 .activity_1, .activity_2 {
+    height: 80px;
+    width: 80px;
+  }
+  
+  #m1 .activity_1 p, .activity_2 p {
+    width: 70px;
+    height: 70px;
+  }
+
+}
+
+/* tablet screen*/
+@media (max-width: 768px) {
+
+  #m1 .n0-i1 .purple_band {
+    width: 80px;
+    height: 60px;
+  }
+  
+  #m1 .n0-i1 .purple_band img {
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+  }
+  
+  #m1 .n0-i1 .purple_band .border_purple {
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    top: 5px;
+    left: -8px;
+  }
+  
+  /* ----------------------------------------------------------- */
+  
+  /* common style for all bands  */
+  
+  #m1 .n0-i1 .yellow_band, .orange_band, .green_band, .blue_band {
+    width: 40px;
+    height: 60px;
+  }
+  
+  #m1 .n0-i1 .border {
+    height: 45px;
+    width: 33px;
+  }
+  
+  
+  #m1 .n0-i1  .yellow_band:hover, .orange_band:hover, .green_band:hover, .blue_band:hover {
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  #m1 .n0-i1 .border:hover{   
+    width: 70px;
+  }
+
+  #m1 .n0-i2 .n1-i1, .n1-i2, .n1-i3 {
+    gap:4%;
+  }
+
+  #m1 .n0-i2 {
+    --lg:4%;
+    --px-md:15%;
+  }
+   
+  #m1 .n0-i2 .activity_1, .activity_2 {
+    height: 70px;
+    width: 70px;
+  }
+  
+  #m1 .activity_1 p, .activity_2 p {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+
+/*** 
+====================================================================
+   Responsive - END
+====================================================================
+***/
